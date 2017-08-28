@@ -34,12 +34,6 @@ hastighet: v<sup>-></sup> = (V<sub>x</sub>, V<sub>y</sub>, V<sub>z</sub>) = (dx/
 
 acceleration: a<sup>-></sup> = (dv<sub>x</sub>/dt, dv<sub>y</sub>/dt, dv<sub>z</sub>/dt) = d<sup>2</sup>r<sup>-></sup>/dt<sup>2</sup>
 
-## Newtons ekvationer
-
-`Newton`
-`ma`<sup>`->`</sup>` = F`<sup>`->`</sup>` `
-
-
 ### Exempel
 
 En kula med massan m rullar av ett bord(med höjden h) med hastigheten v<sub>0</sub> i x-riktning (v<sub>x0</sub>). (Räkna ut vad som händer i fallet från y<sub>0</sub> -> y = 0 och x = 0 -> x(t<sub>1</sub>).
@@ -47,6 +41,9 @@ En kula med massan m rullar av ett bord(med höjden h) med hastigheten v<sub>0</
 Sök t<sub>1</sub> och x(t<sub>1</sub>)
 
 #### Lösning
+
+`Newton`
+`ma`<sup>`->`</sup>` = F`<sup>`->`</sup>` `
 
 Dela upp rörelsen i x- och y-led.
 
@@ -64,4 +61,49 @@ a<sub>y</sub> = -g =>
 y(t<sub>1</sub>) = -h = 1/2 (-g)t<sub>1</sub><sup>2</sup>
 => t<sub>1</sub><sup>2</sup> = 2h/g => t<sub>1</sub> = sqrt(2h/g)
 x(t<sub>1</sub>) = v<sub>0</sub> * sqrt(2h/g)
+
+## Newtons ekvationer
+
+1. Inga krafter => v<sup>-></sup> = konstant
+(tröghetslagen)
+
+2. kraft F<sup>-></sup> => ma<sup>-></sup> = F<sup>-></sup>
+(accelerationslagen)
+
+3. Krafter mellan kroppar. T.ex. 2 kroppar, krafterna är ömsesidiga(lika stora) och motriktade.
+(T.ex. 2 kroppar som krockar och sedan går åt varsitt håll)
+Kontaktkrafterna F<sup>-></sup><sub>12</sub> (hur 1 påverkas av 2) och F<sup>-></sup><sub>21</sub> (hur 2 påverkas av 1)
+(relationslagen)
+
+### Accelerationslagen
+
+#### Exempel
+En kloss med massan m glider ner för ett sluttande plan med vinkeln Ω.
+
+##### Lösning
+Maxvinkel (Ω<sub>c</sub>) då m ej glider.
+
+Tips: Någonting som kan hjälpa till med att lösa problemet är att frilägga klossen. Man räknar på det med klossen som utgångspunkt i kordinatsystem. (x-led vågrätt med klossen).
+
+Då får vi krafterna: mg, N(normal), T(friktion) som verkar på klossen.
+
+µ<sub>s</sub> = statisk friktionskoefficent
+µ<sub>k</sub> = kinetisk friktionskoefficent
+
+Ingen glidning: T = F = mgsinΩ <= µ<sub>s</sub>N
+
+Glidning: T = µ<sub>k</sub>N < F
+
+(a) ingen glidning (a<sub>x</sub>=0, a<sub>y</sub>=0)
+y: ma<sub>y</sub> = F<sub>y</sub> = N - mgcosΩ
+x: ma<sub>x</sub> = F<sub>x</sub> = mgsinΩ - T
+
+a<sub>y</sub> = 0 => N = mgcosΩ
+a<sub>x</sub> = 0 => T = mgsinΩ
+
+T = µ<sub>s</sub>N
+
+mgsinΩ = µ<sub>s</sub>mgcosΩ
+
+=> µ<sub>s</sub> = tanΩ<sub>k</sub> => Ω<sub>k</sub> = arctan(µ<sub>s</sub>)
 
