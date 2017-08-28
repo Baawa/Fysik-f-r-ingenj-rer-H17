@@ -10,7 +10,7 @@ v = v<sub>0</sub> (konstant)
 
 dx = x(t = t<sub>1</sub>) - x(t = 0) = v<sub>0</sub>*t<sub>1</sub>
 
-1. `=> x(t) = x(t = 0) + v<sub>0</sub>*t<sub>1</sub>`
+1. `=> x(t) = x(t = 0) + v`<sub>`0`</sub>`*t`<sub>`1`</sub>` `
 
 a = a<sub>0</sub> (konstant)
 
@@ -37,12 +37,12 @@ acceleration: a<sup>-></sup> = (dv<sub>x</sub>/dt, dv<sub>y</sub>/dt, dv<sub>z</
 ## Newtons ekvationer
 
 `Newton`
-`ma`<sup>-></sup>` = F`<sup>-></sup>` `
+`ma`<sup>`->`</sup>` = F`<sup>`->`</sup>` `
 
 
 ### Exempel
 
-En kula med massan m rullar av ett bord med hastigheten v<sub>0</sub> i x-riktning (v<sub>x0</sub>). (Räkna ut vad som händer i fallet från y<sub>0</sub> -> y = 0 och x = 0 -> x(t<sub>1</sub>).
+En kula med massan m rullar av ett bord(med höjden h) med hastigheten v<sub>0</sub> i x-riktning (v<sub>x0</sub>). (Räkna ut vad som händer i fallet från y<sub>0</sub> -> y = 0 och x = 0 -> x(t<sub>1</sub>).
 
 Sök t<sub>1</sub> och x(t<sub>1</sub>)
 
@@ -64,3 +64,4 @@ a<sub>y</sub> = -g =>
 y(t<sub>1</sub>) = -h = 1/2 (-g)t<sub>1</sub><sup>2</sup>
 => t<sub>1</sub><sup>2</sup> = 2h/g => t<sub>1</sub> = sqrt(2h/g)
 x(t<sub>1</sub>) = v<sub>0</sub> * sqrt(2h/g)
+
