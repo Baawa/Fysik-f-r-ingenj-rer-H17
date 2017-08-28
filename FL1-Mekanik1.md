@@ -83,7 +83,7 @@ En kloss med massan m glider ner för ett sluttande plan med vinkeln Ω.
 ##### Lösning
 Maxvinkel (Ω<sub>c</sub>) då m ej glider.
 
-Tips: Någonting som kan hjälpa till med att lösa problemet är att frilägga klossen. Man räknar på det med klossen som utgångspunkt i kordinatsystem. (x-led vågrätt med klossen).
+Tips: Någonting som kan hjälpa till med att lösa problemet är att frilägga klossen. Då räknar man med klossen som utgångspunkt i kordinatsystem. (x-led vågrätt med klossen).
 
 Då får vi krafterna: mg, N(normal), T(friktion) som verkar på klossen.
 
@@ -105,5 +105,13 @@ T = µ<sub>s</sub>N
 
 mgsinΩ = µ<sub>s</sub>mgcosΩ
 
-=> µ<sub>s</sub> = tanΩ<sub>k</sub> => Ω<sub>k</sub> = arctan(µ<sub>s</sub>)
+=> µ<sub>s</sub> = tanΩ<sub>c</sub> => Ω<sub>c</sub> = arctan(µ<sub>s</sub>)
+
+(b) Glidning
+
+x: a<sub>x</sub> = dv<sub>x</sub>/dt = mg(sinΩ - µ<sub>k</sub>cosΩ)
+
+v<sub>x</sub>(0) = 0
+
+=> `v`<sub>`x`</sub>`(t) = mg(sinΩ-µ`<sub>`k`</sub>`cosΩ)t`
 
